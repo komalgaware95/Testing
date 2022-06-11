@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <test thread-count="8"  name="ChromeBrowserTest">
+   <parameter name="browserName"  value="chrome"></parameter>
+
+    <classes>
+       <class name="com.SauceDemo.TestClasses.TC01LoginFunctionality"/>
+     <class name="com.SauceDemo.TestClasses.TC02CheckProductIsSelectOrNot"/>
+      <!--class name="com.SauceDemo.TestClasses.TC03ProductAddedToCartOrNot"/>
+      <class name="com.SauceDemo.TestClasses.TC04CheckProductIsBuyOrNot"/>
+      <class name="com.SauceDemo.TestClasses.TC08CheckMultipleProductAddedToCart"/>
+      <class name="com.SauceDemo.TestClasses.TC05CheckProductIsAbleTocancelOrNot"/>
+      <class name="com.SauceDemo.TestClasses.TC07AbleToApplyTheFilterOrNot"/>
+      <class name="com.SauceDemo.TestClasses.TC06ProceedToCheckoutOrNot"/-->
+     
+    </classes>
+  </test> <!-- Test -->
+
+
+
+</suite> <!-- Suite -->
